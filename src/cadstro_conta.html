@@ -12,7 +12,7 @@
 
     <a class="links" id="paracadastro"></a>
 
-    <form id="cadastro" methood="post" action="">
+    <form id="cadastro" methood="get" action="">
       
       <div id="imagem"><img src="" ></div>
       <h1>cadastro</h1>
@@ -41,9 +41,9 @@
       <div class="linha">
         
         <div class="inputBox">
-          <input type="password" required>
+          <input type="password" name="password1" required>
           <div class="linha-caixa"></div>
-          <label for="">Password</label>
+          <label for="password1">Password</label>
         </div>
         
       </div>
@@ -51,19 +51,19 @@
       <div class="linha">
         
         <div class="inputBox">
-          <input type="password" required>
+          <input type="password" name="password2" required>
           <div class="linha-caixa"></div>
-          <label for="">repeat Password</label>
+          <label for="password2">repeat Password</label>
         </div>
         
       </div>
 
       <div class="butão">
-        <input type="submit" type="cadastrar">
+        <input type="submit" >
       </div>
 
       <div id="abaixo-form">
-        <a href="">Já tem conta?</a>
+        <a href="index.html">Já tem conta?</a>
       </div>
 
     </form>
